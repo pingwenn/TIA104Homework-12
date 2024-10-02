@@ -10,27 +10,25 @@ public class Homework02 {
 //			sum += i ;
 //			
 //			System.out.println(" 1~1000的偶數和 " + sum );
-//	}
-//}
+//	
+//
 		
 		// 請設計一隻Java程式，計算1～10的連乘積(1*2*3*…*10) (用for迴圈)
 //		int sum = 1;
 //		for (int i = 1; i <= 10; i ++)
 //			sum *= i;
 //			System.out.println(" 1~10的連乘積 = " + sum );
-//	}
-//}
+
 		// 請設計一隻Java程式，計算1～10的連乘積(1*2*3*…*10) (用while迴圈)
-		int sum = 1, i = 1;
-		while (i <= 10){
-			
-		
-			sum *= i;
-			i++;
-		}	
-			System.out.println(" 1~10的連乘積 " + sum);
-	}
-}
+//		int sum = 1, i = 1;
+//		while (i <= 10){
+//			
+//		
+//			sum *= i;
+//			i++;
+//		}	
+//			System.out.println(" 1~10的連乘積 " + sum);
+
 
 		//  請設計一隻Java程式，輸出結果為以下：
 //		    1 4 9 16 25 36 49 64 81 100
@@ -49,7 +47,11 @@ public class Homework02 {
 //			1 2 3 
 //			1 2 
 //			1
-		
+//		for (int i = 10; i >= 1; i--) {
+//			for (int j = 1; j <= i; j++)
+//				System.out.print( j + " ");
+//			System.out.println();
+//		}
 		// 請設計一隻Java程式，輸出結果為以下：
 //			A
 //			BB
@@ -57,5 +59,6 @@ public class Homework02 {
 //			DDDD
 //			EEEEE
 //			FFFFFF
-	
-
+		
+	}
+}
